@@ -1,7 +1,7 @@
 # Blog-preview-card
 Challenge(Blog-review-card)
-![alt text](Blog-review-card/Desktop-design.png) - width 1440px
-![alt text](Blog-review-card/Mobie-design.png) - width 375px
+![alt text](Desktop-design.png) - width 1440px
+![alt text](Mobie-design.png) - width 375px
 
 links- 
 Solution[https://github.com/Dev-musty/Blog-preview-card]
