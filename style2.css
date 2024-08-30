@@ -1,0 +1,83 @@
+@media screen and (max-width: 1440px){
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 25%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px hsl(0, 0%, 7%));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+}
+.container > div p{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.bottom-layer h3{
+    display: inline;
+   position: relative;
+   left: 10px;
+   bottom: 15px;
+}
+.bottom-layer img{
+    width: 40px;
+}
+.middle-layer h2{
+    margin-bottom: 20px;
+}
+.middle-layer p{
+    margin-bottom: 30px;
+    margin-right: 20px;
+    color: hsl(0, 0%, 42%);
+    
+}
+.top-layer img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.top-layer h3{
+    background-color:  hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 10px;
+    margin: 40px 0 50px 0;
+}
+.top-layer p{
+    margin: 20px 0 15px 0;
+    color: hsl(0, 0%, 7%);
+}
+}
+@media screen and (max-width: 375px){
+    .container{
+        width: 80%;
+        margin: 0;
+        filter: drop-shadow(6px 6px hsl(0, 0%, 7%));
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .middle-layer h2{
+        font-size: 23px;
+    }
+    .middle-layer p{
+        margin-right: 0;
+        font-weight: normal;
+    }
+}
